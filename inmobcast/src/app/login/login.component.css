@@ -1,0 +1,129 @@
+#loginContainer {
+    background: #ecf0f1;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+   
+  
+}
+.row{
+    margin: 0px !important;
+}
+
+.fullLogo{
+ width: 100%;
+ 
+}
+.btnRadius{
+    padding: 30px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    font-size: 18px;
+
+}
+.btnRadius i{
+    font-size: 2.3rem !important;
+}
+
+.capa{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+  
+.signIn{
+
+    background-color: #3498db;
+    float: left;
+    width: 85%;
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 1s;
+
+}
+.signUp{
+    background-color: whitesmoke;
+    float: right;
+    width: 15%;
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 1s;
+}
+
+.card {
+
+    width: 100%;
+    max-width: 415px;
+    height: auto;
+    padding: 15px;
+}
+
+.headCard {
+    font-size: 1.5rem;
+    /* text-align: center; */
+    text-transform: uppercase;
+    font-weight: 600;
+    /* background: #9b59b6; */
+    color: #3498db;
+    padding: 5px 10px;
+}
+
+.bodyCard {
+    padding: 5px;
+}
+
+.cardBtn {
+    display: flex;
+    justify-content: space-around;
+}
+
+btnLoginhover {
+    color: #5aade4;
+}
+
+
+.invisible {
+ 
+    display: none;
+}
+
+#login {
+    animation-duration: 0.5s;
+}
+
+#register {
+    animation-duration: 0.5s;
+}
+.cImg{
+    border: 1px #aaaeaf dashed;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3rem;
+    color: #cacbcc;
+}
+#labelImg{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#tagImg{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+.errMsg{
+    margin-left: 10px;
+    color: #e74c3c;
+}
+
+
+

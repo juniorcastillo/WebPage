@@ -1,0 +1,99 @@
+<div id="loginContainer">
+  <div class="capa signIn showCapa">
+
+      <a class="waves-effect waves-light btn btnRadius" *ngIf="visible" (click)="showModalLogin()">
+          <i class="fas fa-sign-in-alt right fullLogo"> </i>
+        </a>
+    <!-- login modal -->
+    <div class="card" id="login" *ngIf="!visible">
+      <div class="headCard">
+        Login
+      </div>
+      <div class="bodyCard">
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="emailLogin" type="email" [(ngModel)]="login.emailLogin" class="validate">
+            <label for="emailLogin">Email</label>
+          </div>
+          <span class="errMsg invisible" id="emailErr"></span>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+
+            <input id="passwordLogin" [(ngModel)]="login.passwordLogin" type="password" class="validate">
+            <label for="passwordLogin">Password</label>
+          </div>
+        </div>
+      </div>
+      <div class='cardBtn'>
+        <a class="waves-effect waves-light btn btnLogin" (click)="makeLogin()" style="background: #3498db;">
+          <i class="fas fa-sign-in-alt right"></i>Sign in</a>
+       
+      </div>
+    </div>
+
+  </div>
+  <div class="capa hideCapa signUp">
+
+
+    <a class="waves-effect waves-light btn btnRadius" *ngIf="!visible" (click)="ShowModalRegister('register')">
+      <i class="fas fa-user-plus right fullLogo"> </i>
+
+    </a>
+
+    <!-- register modal -->
+    <div class="card animated slideInRight" *ngIf="visible" id="register">
+      <div class="headCard">
+        Register
+      </div>
+      <div class="bodyCard">
+
+        <div class="row" style="padding: 0px; margin-bottom: 0px;">
+          <div class="input-field col s12" style="display: flex; justify-content: center; align-items: center;">
+            <input type="file" (change)="reloadImg($event)" name="fileImg" id="fileImg" accept=".png, .jpg, .jpeg" style="display: none;">
+            <div class="cImg">
+              <label for="fileImg" id='labelImg'>
+                <i class="fas fa-plus"></i>
+
+
+              </label>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="name" type="text" class="validate">
+            <label for="name">Name</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="emailRegister" type="email" class="validate">
+            <label for="emailRegister">Email</label>
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="input-field col s12">
+
+            <input id="passwordRegister" type="password" class="validate">
+            <label for="passwordRegister">Password</label>
+          </div>
+        </div>
+      </div>
+      <div class='cardBtn'>
+        <a class="waves-effect waves-light btn">
+          <i class="fas fa-user-plus right"> </i>sign up</a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+</div>
