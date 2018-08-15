@@ -40,16 +40,16 @@
     background-color: #3498db;
     float: left;
     width: 85%;
-    -webkit-transition: width 2s; /* Safari */
-    transition: width 1s;
+    -webkit-transition: width 0.8s; /* Safari */
+    transition: width 0.8s;
 
 }
 .signUp{
     background-color: whitesmoke;
     float: right;
     width: 15%;
-    -webkit-transition: width 2s; /* Safari */
-    transition: width 1s;
+    -webkit-transition: width 0.8s; /* Safari */
+    transition: width 0.8s;
 }
 
 .card {
