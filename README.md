@@ -1,1 +1,1 @@
-# WebPage with Angular
+# Website with Angular
