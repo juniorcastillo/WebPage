@@ -1,0 +1,10 @@
+nav{
+    background-color: #0984e3;
+}
+nav ul a{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.logo{
+    padding-left: 20px;
+}

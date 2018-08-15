@@ -1,7 +1,14 @@
-nav{
-    background-color: #0984e3;
-}
 
 .containerImg{
     position: relative;
+}
+.subTitle{
+  
+    clip-path: polygon(0% 0, 100% 0%, 82% 100%, 0% 100%);
+    background: #34495e;
+    width: 500px;
+    margin: 0;    
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 2rem;
 }
